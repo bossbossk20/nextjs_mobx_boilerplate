@@ -1,24 +1,9 @@
-## tracking 
+## template nextjs 
 
-- Flow Language Support Extension on VSCODE 
+- next
+- mobx 
+- styled-component
+- eslint (standard style)
+- flow 
+- jest & emzyne
 
-#### how to run 
-```shell
-$ npm run dev
-```
-
-#### run unit test
-```shell
-$ npm test
-```
-
-#### run e2e test
-```shell
-$ npm test:e2e
-```
-
-### run storybook
-
-```shell
-$ npm run storybook
-``` 
