@@ -1,0 +1,28 @@
+{
+  "env": {
+    "development": {
+      "presets": "next/babel",
+      "plugins": [
+        "transform-decorators-legacy",
+        "transform-flow-strip-types"
+    ]
+    },
+    "production": {
+      "presets": "next/babel",
+      "plugins": [
+        "transform-decorators-legacy",
+        "transform-flow-strip-types"
+    ]
+    },
+    "test": {
+      "presets": [
+        ["env", { "modules": "commonjs" }],
+        "next/babel"
+      ],
+      "plugins": [
+        "transform-decorators-legacy",
+        "transform-flow-strip-types"
+    ]
+    }
+  }
+}

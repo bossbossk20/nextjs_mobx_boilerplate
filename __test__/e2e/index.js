@@ -1,0 +1,20 @@
+const Nightmare = require('nightmare')
+const nightmare = Nightmare({ show: true })
+
+nightmare
+  .viewport(1000, 800)
+  .goto('http://localhost:3000/login')
+  .wait(5000)
+  .type('input[type=text]', 'admin@sendit.asia')
+  .type('input[type=password]', '12345678')
+  .click('button')
+  .wait(5000)
+  .click('.sendicon-icon-pin-map')
+  .wait(2000)
+  .wait('#')
+  .evaluate(() => document.querySelector('#r1-0 a.result__a').href)
+  .end()
+  .then(console.log)
+  .catch((error) => {
+    console.error('Search failed:', error)
+  })

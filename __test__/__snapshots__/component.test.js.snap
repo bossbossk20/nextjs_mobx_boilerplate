@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Button 1`] = `
+.c0 {
+  background-color: #FFB804;
+  color: #000;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0px;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`Components Google Map 1`] = `
+<div
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+/>
+`;
+
+exports[`Components Input 1`] = `
+.c0 {
+  color: #FFF;
+}
+
+.c0 label {
+  color: #FFF;
+}
+
+.c0 .MuiInput-inputSingleline-26 {
+  color: #FFF;
+}
+
+.c0 .MuiFormLabel-focused-12 {
+  color: #FFB804 !important;
+}
+
+.c0 .MuiInput-inkbar-17:after {
+  background-color: #FFF !important;
+}
+
+.c0 .MuiInput-underline-23:before {
+  background-color: #FFF !important;
+}
+
+<div
+  className="MuiFormControl-root-1 MuiFormControl-marginNormal-2 c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  required={false}
+>
+  <div
+    className="MuiInput-root-5 MuiInput-formControl-6 MuiInput-inkbar-7 MuiInput-underline-13"
+    onBlur={[Function]}
+    onFocus={[Function]}
+  >
+    <input
+      autoComplete={undefined}
+      autoFocus={undefined}
+      className="MuiInput-input-9 MuiInput-inputSingleline-16"
+      defaultValue={undefined}
+      disabled={false}
+      id={undefined}
+      name={undefined}
+      onChange={[Function]}
+      onKeyDown={undefined}
+      onKeyUp={undefined}
+      placeholder={undefined}
+      readOnly={undefined}
+      required={undefined}
+      rows={undefined}
+      type="text"
+      value={undefined}
+    />
+  </div>
+</div>
+`;
+
+exports[`Components QuickTourButton 1`] = `
+.c0 {
+  background-color: #FFB804;
+  color: #000;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 112px;
+  height: 26px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 12px;
+  padding-left: 5px;
+}
+
+.c0 .icon {
+  margin-left: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #FFB804;
+  background: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 13px;
+}
+
+.c0 span {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+<div
+  className="c0"
+>
+  <span>
+    quick tour
+  </span>
+  <div
+    className="icon"
+  >
+    ?
+  </div>
+</div>
+`;
+
+exports[`Components SearchBox 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c0 .searchBoxContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 0 20px;
+  margin: 0 12px;
+  border: 1px solid #4D4D4D;
+  background: #1A1A1A;
+  height: 34px;
+  width: 300px;
+}
+
+.c0 .searchBoxContainer .sendicon-icon-search {
+  font-size: 20px;
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  background-color: #1A1A1A;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.c0 .searchBoxContainer .textField {
+  color: #FFF;
+  border: 0px;
+  margin: 0;
+  padding-right: 30px;
+  width: 100%;
+  background-color: #1A1A1A;
+  margin-left: 10px;
+}
+
+.c0 .searchBoxContainer .textField:focus {
+  outline: none;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="searchBoxContainer"
+  >
+    <input
+      className="textField"
+      placeholder="Search"
+    />
+    <i
+      className="sendicon-icon-search"
+    />
+  </div>
+</div>
+`;
+
+exports[`Components SelectDropdown 1`] = `
+.c0 {
+  padding: 0 20px;
+}
+
+.c0 .MuiSelect-selectMenu-7 {
+  color: #FFB804;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.c0 .MuiSelect-icon-9 {
+  color: #FFB804;
+}
+
+<div
+  className="MuiFormControl-root-1"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  required={false}
+>
+  <div
+    className="MuiInput-root-5 MuiInput-formControl-6 MuiInput-inkbar-7 MuiInput-underline-13 c0"
+    onBlur={[Function]}
+    onFocus={[Function]}
+  >
+    <div
+      className="MuiSelect-root-20"
+    >
+      <div
+        aria-haspopup="true"
+        aria-owns={null}
+        aria-pressed="false"
+        className="MuiSelect-select-21 MuiSelect-selectMenu-22 MuiInput-input-9 MuiInput-inputSingleline-16"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={undefined}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        3PL MANAGEMENT
+      </div>
+      <input
+        autoComplete={undefined}
+        autoFocus={undefined}
+        defaultValue={undefined}
+        id={undefined}
+        name={undefined}
+        onKeyDown={undefined}
+        onKeyUp={undefined}
+        placeholder={undefined}
+        readOnly={undefined}
+        required={undefined}
+        rows={undefined}
+        type="hidden"
+        value=""
+      />
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-25 MuiSelect-icon-24"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Components ToggleButton 1`] = `
+.c0 {
+  margin: 0 10px;
+  background-color: #000;
+  color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid #4D4D4D;
+  width: 180px;
+}
+
+.c0 .side {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  width: 90px;
+  height: 26px;
+  font-size: 12px;
+}
+
+<div
+  className="c0"
+>
+  <a
+    className="side"
+    style={
+      Object {
+        "backgroundColor": "#FFB804",
+        "color": "#000",
+      }
+    }
+  />
+  <a
+    className="side"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#1A1A1A",
+      }
+    }
+  />
+</div>
+`;
